@@ -33,7 +33,7 @@ def is_option(func):
 def IP_Track():
     ip = input(f"{Wh}\n Enter IP target : {Re}")  # INPUT IP ADDRESS
     print()
-    print(f' {Wh}============= {Re}SHOW INFORMATION IP ADDRESS {Wh}=============')
+    print(f' {Wh}============= {Re} INFORMATION IP ADDRESS {Wh}=============')
     req_api = requests.get(f"http://ipwho.is/{ip}")  # API IPWHOIS.IS
     ip_data = json.loads(req_api.text)
     time.sleep(2)
@@ -88,7 +88,7 @@ def phoneGW():
     timezone1 = timezone.time_zones_for_number(parsed_number)
     timezoneF = ', '.join(timezone1)
 
-    print(f"\n {Wh}========== {Re}SHOW INFORMATION PHONE NUMBERS {Wh}==========")
+    print(f"\n {Wh}========== {Re} INFORMATION PHONE NUMBER {Wh}==========")
     print(f"\n {Wh}Location             :{Re} {location}")
     print(f" {Wh}Region Code          :{Re} {region_code}")
     print(f" {Wh}Timezone             :{Re} {timezoneF}")
@@ -152,7 +152,7 @@ def TrackLu():
         print(f"{Re}Error : {e}")
         return
 
-    print(f"\n {Wh}========== {Re}SHOW INFORMATION USERNAME {Wh}==========")
+    print(f"\n {Wh}========== {Re} INFORMATION USERNAME {Wh}==========")
     print()
     for site, url in results.items():
         print(f" {Wh}[ {Re}+ {Wh}] {site} : {Re}{url}")
@@ -163,7 +163,7 @@ def showIP():
     respone = requests.get('https://api.ipify.org/')
     Show_IP = respone.text
 
-    print(f"\n {Wh}========== {Re}SHOW INFORMATION YOUR IP {Wh}==========")
+    print(f"\n {Wh}========== {Re} INFORMATION YOUR IP {Wh}==========")
     print(f"\n {Wh}[{Re} + {Wh}] Your IP Adrress : {Re}{Show_IP}")
     print(f"\n {Wh}==============================================")
 
