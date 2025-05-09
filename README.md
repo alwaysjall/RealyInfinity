@@ -22,20 +22,6 @@
       border-radius: 4px;
       font-family: monospace;
     }
-glitch {
-            font-size: 50px;
-            font-weight: bold;
-            position: relative;
-            display: inline-block;
-            animation: glitch 1s infinite;
-        }
-        @keyframes glitch {
-            0% { text-shadow: 2px 2px red, -2px -2px blue; }
-            25% { text-shadow: -2px -2px red, 2px 2px blue; }
-            50% { text-shadow: 2px -2px red, -2px 2px blue; }
-            75% { text-shadow: -2px 2px red, 2px -2px blue; }
-            100% { text-shadow: 2px 2px red, -2px -2px blue; }
-        }
     hr {
       border: none;
       height: 1px;
