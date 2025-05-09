@@ -2,33 +2,6 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Profil Always Jall</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #000000;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    hr {
-      border: none;
-      height: 1px;
-      background: #ddd;
-      margin: 20px 0;
-    }
-  </style>
 </head>
 <body>
   <h1>Hi saya adalah Always Jall</h1>
