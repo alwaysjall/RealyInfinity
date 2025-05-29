@@ -33,6 +33,7 @@
 <li><code>$</code>pkg update && pkg upgrade -y</li>
     <li><code>$</code>pkg install git</li>       <li><code>$</code>pkg install python3</li>
     <li><code>$</code>git clone https://github.com/alwaysjall/RealyInfinity</li>
+<li><code>$</code>cd RealyInfinity</li>
         <li><code>$</code>pip3 install -r requirements.txt</li>
          <li><code>$</code>python3 RealyInfinity.py</li>
          <h2>sekian dan terima kasih<h2>
